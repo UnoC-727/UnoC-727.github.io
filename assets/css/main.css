@@ -16,7 +16,9 @@ html{scroll-behavior:smooth}#main{max-width:1120px}.page--full{max-width:1040px!
 .page.page--full{float:none!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;}
 .page .page__inner-wrap{float:none!important;width:100%!important;}
 .page .page__inner-wrap .page__content{float:none!important;width:100%!important;}
-.hero-card{display:grid!important;grid-template-columns:176px minmax(0,1fr)!important;gap:2rem!important;align-items:center!important;}
+.hero-card{display:grid!important;grid-template-columns:200px minmax(0,1fr)!important;gap:2rem!important;align-items:center!important;}
+.hero-card__avatar img{width:200px!important;height:200px!important;}
+.hero-card__body h1{font-size:1.9rem!important;}
 
 .hero-card__avatar{grid-column:1!important;grid-row:1!important;}
 .hero-card__body{grid-column:2!important;grid-row:1!important;}
