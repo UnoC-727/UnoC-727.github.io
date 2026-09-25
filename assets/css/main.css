@@ -56,17 +56,73 @@ html{scroll-behavior:smooth;}
 .hero-card__avatar img{box-shadow:0 4px 16px rgba(0,0,0,0.12)!important;transition:box-shadow 0.3s ease!important;}
 .hero-card__avatar img:hover{box-shadow:0 8px 28px rgba(0,0,0,0.18)!important;}
 
-/* Paper links colored buttons */
-.paper-links a{display:inline-block;padding:0.3em 0.9em;border-radius:4px;font-size:0.85em;font-weight:500;text-decoration:none!important;margin-right:0.5em;transition:all 0.2s ease;}
-.paper-links a:first-child{background:#4b8af0;color:#fff!important;border:1px solid #4b8af0;}
-.paper-links a:first-child:hover{background:#3a7ae0;}
-.paper-links a:nth-child(n+2){background:#f5f5f5;color:#1a1a1a!important;border:1px solid #d4d4d4;}
-.paper-links a:nth-child(n+2):hover{background:#e5e5e5;border-color:#a3a3a3;}
-
-/* Lighten publication blue accents (except paper titles) */
-.venue-pill{background:#e8f2ff!important;color:#4b8af0!important;font-size:0.9em!important;font-weight:600!important;padding:0.3em 0.8em!important;}
-.publication-card.selected{border-left-color:#6da3f5!important;}
-.publication-mini .venue-pill.small{background:#e8f2ff!important;color:#4b8af0!important;font-size:0.85em!important;font-weight:600!important;padding:0.25em 0.7em!important;}
+/* Publications: soft slate blue with pale accents. */
+#publications {
+  --publication-accent: #526e8c;
+  --publication-accent-hover: #435f7d;
+  --publication-title: #57779b;
+  --publication-soft: #f0f4f9;
+  --publication-border: #e0e8f2;
+  --publication-marker: #b5c8df;
+  --publication-button: #eaf0f8;
+  --publication-button-hover: #dee8f4;
+}
+#publications h3 a {
+  color: var(--publication-title);
+  text-decoration-color: var(--publication-marker);
+}
+#publications h3 a:hover {
+  color: var(--publication-accent-hover);
+  text-decoration-color: currentColor;
+}
+#publications .section-heading,
+#publications .publication-card,
+#publications .publication-mini {
+  border-color: var(--publication-border);
+}
+#publications .publication-card.selected {
+  border-left-color: var(--publication-marker);
+}
+#publications .venue-pill {
+  background: var(--publication-soft);
+  color: var(--publication-accent);
+  font-size: .9em;
+  font-weight: 600;
+  padding: .3em .8em;
+}
+#publications .publication-mini .venue-pill.small {
+  font-size: .85em;
+  padding: .25em .7em;
+}
+#publications .paper-links a {
+  display: inline-block;
+  padding: .3em .9em;
+  border-radius: 4px;
+  font-size: .85em;
+  font-weight: 500;
+  text-decoration: none !important;
+  margin-right: .5em;
+  transition: all .2s ease;
+}
+#publications .paper-links a:first-child {
+  background: var(--publication-button);
+  color: var(--publication-accent) !important;
+  border: 1px solid var(--publication-border);
+}
+#publications .paper-links a:first-child:hover {
+  background: var(--publication-button-hover);
+  color: var(--publication-accent-hover) !important;
+  border-color: var(--publication-marker);
+}
+#publications .paper-links a:nth-child(n+2) {
+  background: #f8fafd;
+  color: var(--publication-accent) !important;
+  border: 1px solid var(--publication-border);
+}
+#publications .paper-links a:nth-child(n+2):hover {
+  background: var(--publication-soft);
+  border-color: var(--publication-marker);
+}
 
 /* Keep the latest six news entries visible, with older entries below. */
 .news-scroll {
