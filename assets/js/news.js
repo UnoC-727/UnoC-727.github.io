@@ -3,7 +3,7 @@
   if (!panel) return;
 
   var list = panel.querySelector('.timeline-list');
-  var visibleCount = 6;
+  var visibleCount = 7;
 
   function updateHeight() {
     var items = list.children;
@@ -12,7 +12,7 @@
       return;
     }
 
-    // Measure actual rows so wrapped text still leaves exactly six entries visible.
+    // Measure actual rows so wrapping preserves the visible entry limit.
     var first = items[0].getBoundingClientRect();
     var last = items[visibleCount - 1].getBoundingClientRect();
     panel.style.maxHeight = Math.ceil(last.bottom - first.top) + 'px';
