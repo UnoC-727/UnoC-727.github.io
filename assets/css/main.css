@@ -67,3 +67,36 @@ html{scroll-behavior:smooth;}
 .venue-pill{background:#e8f2ff!important;color:#4b8af0!important;font-size:0.9em!important;font-weight:600!important;padding:0.3em 0.8em!important;}
 .publication-card.selected{border-left-color:#6da3f5!important;}
 .publication-mini .venue-pill.small{background:#e8f2ff!important;color:#4b8af0!important;font-size:0.85em!important;font-weight:600!important;padding:0.25em 0.7em!important;}
+
+/* Keep the latest six news entries visible, with older entries below. */
+.news-scroll {
+  max-height: 26rem;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #94a3b8 #f1f5f9;
+  padding-right: .65rem;
+}
+.news-scroll .timeline-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.news-scroll:focus-visible {
+  outline: 2px solid #4b8af0;
+  outline-offset: 4px;
+}
+.news-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.news-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 8px;
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 8px;
+}
+.news-scroll::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
