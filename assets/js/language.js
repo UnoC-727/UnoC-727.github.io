@@ -40,7 +40,7 @@
     workshopOrganizer: "研讨会组织：",
     workshop: "VCIP 2025 超低码率视频压缩挑战赛",
     outstandingGraduate: "上海交通大学优秀毕业生",
-    yuLimingScholarship: "上海交通大学密西根学院 Yu Liming 奖学金",
+    yuLimingScholarship: "上海交通大学密西根学院俞黎明奖学金",
     undergraduateScholarship: "上海交通大学密西根学院本科生优秀奖学金",
     phdDates: "2023.09 – 至今",
     phdEducation: "计算机科学博士（在读），上海交通大学",
