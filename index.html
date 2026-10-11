@@ -18,6 +18,7 @@
 </script>
 <!-- For all browsers -->
 <link href="assets/css/main.css" rel="stylesheet"/>
+<link href="assets/css/language.css" rel="stylesheet"/>
 <meta content="on" http-equiv="cleartype"/>
 <head>
 <base target="_blank"/>
@@ -52,9 +53,13 @@
 <div class="masthead__menu">
 <nav class="greedy-nav" id="site-nav">
 <button><div class="navicon"></div></button>
-<ul class="visible-links"><li class="masthead__menu-item"><a href="/#about-me">About</a></li><li class="masthead__menu-item"><a href="/#news">News</a></li><li class="masthead__menu-item"><a href="/#experiences">Experience</a></li><li class="masthead__menu-item"><a href="/#publications">Publications</a></li><li class="masthead__menu-item"><a href="/#services">Services</a></li><li class="masthead__menu-item"><a href="/#honors">Honors</a></li><li class="masthead__menu-item"><a href="/#education">Education</a></li></ul>
+<ul class="visible-links"><li class="masthead__menu-item"><a href="/#about-me" data-i18n="navAbout">About</a></li><li class="masthead__menu-item"><a href="/#news" data-i18n="news">News</a></li><li class="masthead__menu-item"><a href="/#experiences" data-i18n="experience">Experience</a></li><li class="masthead__menu-item"><a href="/#publications" data-i18n="publications">Publications</a></li><li class="masthead__menu-item"><a href="/#services" data-i18n="services">Services</a></li><li class="masthead__menu-item"><a href="/#honors" data-i18n="navHonors">Honors</a></li><li class="masthead__menu-item"><a href="/#education" data-i18n="education">Education</a></li></ul>
 <ul class="hidden-links hidden"></ul>
 </nav>
+<div class="language-switch" role="group" aria-label="Language">
+<button type="button" data-language="en" aria-pressed="true" lang="en">EN</button>
+<button type="button" data-language="zh" aria-pressed="false" lang="zh-CN">中文</button>
+</div>
 </div>
 </div>
 </div>
@@ -67,73 +72,73 @@
 <img alt="Yunuo Chen" src="images/profile.jpg"/>
 </div>
 <div class="hero-card__body">
-<p class="eyebrow">Shanghai Jiao Tong University</p>
-<h1>Yunuo Chen <span>陈予诺</span></h1>
-<p class="hero-card__subtitle">Ph.D. student in Computer Science</p>
-<p>
-      I am a Ph.D. student at SJTU Media Lab, Shanghai Jiao Tong University, advised by Prof.
-      <a href="https://scholar.google.com/citations?user=u9aw5o8AAAAJ">Wen Gao</a> and Prof.
+<p class="eyebrow" data-i18n="university">Shanghai Jiao Tong University</p>
+<h1 data-i18n="name">Yunuo Chen <span>陈予诺</span></h1>
+<p class="hero-card__subtitle" data-i18n="subtitle">Ph.D. student in Computer Science</p>
+<p data-i18n="biography">
+      I am a Ph.D. student at SJTU Media Lab, Shanghai Jiao Tong University, advised by
+      <a href="https://scholar.google.com/citations?user=u9aw5o8AAAAJ">Wen Gao</a>, an Academician of the Chinese Academy of Engineering, and Prof.
       <a href="https://scholar.google.com/citations?user=R9iwlJcAAAAJ">Guo Lu</a>. I received my B.Eng. in Electrical and Computer Engineering from the UM-SJTU Joint Institute, Shanghai Jiao Tong University.
     </p>
-<p>
+<p data-i18n="research">
       My research focuses on <strong>Visual Compression</strong>, <strong>AIGC</strong> and <strong>World Model</strong>.
     </p>
 <div class="hero-card__links">
-<a href="mailto:cyril-chenyn@sjtu.edu.cn"><i class="fas fa-fw fa-envelope"></i>Email</a>
+<a href="mailto:cyril-chenyn@sjtu.edu.cn" data-i18n="email"><i class="fas fa-fw fa-envelope"></i>Email</a>
 <a href="https://github.com/UnoC-727"><i class="fab fa-fw fa-github"></i>GitHub</a>
-<a href="https://scholar.google.com/citations?user=IFAVxk8AAAAJ"><i class="fas fa-fw fa-graduation-cap"></i>Google Scholar</a>
+<a href="https://scholar.google.com/citations?user=IFAVxk8AAAAJ" data-i18n="scholar"><i class="fas fa-fw fa-graduation-cap"></i>Google Scholar</a>
 </div>
 </div>
 </section>
 <section class="homepage-section" id="news">
 <div class="section-heading">
-<h2 id="news-heading">News</h2>
+<h2 id="news-heading" data-i18n="news">News</h2>
 </div>
 <div class="news-scroll" role="region" aria-labelledby="news-heading" tabindex="0">
 <ul class="timeline-list">
-<li><time>2026.09</time><span>Two papers were accepted to <strong>NeurIPS 2026</strong>.</span></li>
-<li><time>2026.08</time><span>Two papers were accepted to <strong>TCSVT 2026</strong>.</span></li>
-<li><time>2026.06</time><span>One paper was accepted to <strong>ECCV 2026</strong>.</span></li>
-<li><time>2026.02</time><span>Two papers were accepted to <strong>CVPR 2026</strong>.</span></li>
-<li><time>2026.01</time><span>Two papers were accepted to <strong>ICLR 2026</strong>.</span></li>
-<li><time>2025.09</time><span>One paper was accepted to <strong>NeurIPS 2025</strong>.</span></li>
-<li><time>2025.06</time><span>One paper was accepted to <strong>ICCV 2025</strong> as an <strong>Oral</strong> presentation.</span></li>
-<li><time>2024.01</time><span>One paper was accepted to <strong>ICLR 2024</strong>.</span></li>
-<li><time>2023.04</time><span>One paper was accepted to <strong>ICML 2023</strong>.</span></li>
+<li><time>2026.09</time><span data-i18n="newsNeurips2026">Two papers were accepted to <strong>NeurIPS 2026</strong>.</span></li>
+<li><time>2026.08</time><span data-i18n="newsTcsvt2026">Two papers were accepted to <strong>TCSVT 2026</strong>.</span></li>
+<li><time>2026.06</time><span data-i18n="newsEccv2026">One paper was accepted to <strong>ECCV 2026</strong>.</span></li>
+<li><time>2026.02</time><span data-i18n="newsCvpr2026">Two papers were accepted to <strong>CVPR 2026</strong>.</span></li>
+<li><time>2026.01</time><span data-i18n="newsIclr2026">Two papers were accepted to <strong>ICLR 2026</strong>.</span></li>
+<li><time>2025.09</time><span data-i18n="newsNeurips2025">One paper was accepted to <strong>NeurIPS 2025</strong>.</span></li>
+<li><time>2025.06</time><span data-i18n="newsIccv2025">One paper was accepted to <strong>ICCV 2025</strong> as an <strong>Oral</strong> presentation.</span></li>
+<li><time>2024.01</time><span data-i18n="newsIclr2024">One paper was accepted to <strong>ICLR 2024</strong>.</span></li>
+<li><time>2023.04</time><span data-i18n="newsIcml2023">One paper was accepted to <strong>ICML 2023</strong>.</span></li>
 </ul>
 </div>
 </section>
 <section class="homepage-section" id="experiences">
 <div class="section-heading">
-<h2>Experience</h2>
+<h2 data-i18n="experience">Experience</h2>
 </div>
 <div class="experience-grid">
 <article class="experience-card">
 <div class="experience-card__logo"><img alt="MSRA logo" src="images/msra.png"/></div>
 <div class="experience-card__content">
-<div class="card-meta">2026.02 – Present</div>
-<h3>Research Intern</h3>
-<p class="organization">Microsoft Research Asia (MSRA)</p>
-<p>Supervised by <a href="https://www.microsoft.com/en-us/research/people/fawe/">Fangyun Wei</a> and <a href="https://scholar.google.com/citations?user=_fKSYOwAAAAJ">Dong Chen</a>.</p>
-<p class="muted">Topic: lightweight text-to-image and image-editing foundation models.</p>
+<div class="card-meta" data-i18n="msraDates">2026.02 – Present</div>
+<h3 data-i18n="researchIntern">Research Intern</h3>
+<p class="organization" data-i18n="msra">Microsoft Research Asia (MSRA)</p>
+<p data-i18n="msraSupervisors">Supervised by <a href="https://www.microsoft.com/en-us/research/people/fawe/">Fangyun Wei</a> and <a href="https://scholar.google.com/citations?user=_fKSYOwAAAAJ">Dong Chen</a>.</p>
+<p class="muted" data-i18n="msraTopic">Topic: lightweight text-to-image and image-editing foundation models.</p>
 </div>
 </article>
 <article class="experience-card">
 <div class="experience-card__logo"><img alt="StepFun logo" src="images/stepfun.svg"/></div>
 <div class="experience-card__content">
 <div class="card-meta">2025.07 – 2025.12</div>
-<h3>Research Intern</h3>
-<p class="organization">StepFun (阶跃星辰)</p>
-<p>Supervised by <a href="https://scholar.google.com/citations?user=OC8eBkYAAAAJ">Wei Cheng</a>.</p>
-<p class="muted">Topic: multi-reference and many-to-many image generation.</p>
+<h3 data-i18n="researchIntern">Research Intern</h3>
+<p class="organization" data-i18n="stepfun">StepFun (阶跃星辰)</p>
+<p data-i18n="stepfunSupervisor">Supervised by <a href="https://scholar.google.com/citations?user=OC8eBkYAAAAJ">Wei Cheng</a>.</p>
+<p class="muted" data-i18n="stepfunTopic">Topic: multi-reference and many-to-many image generation.</p>
 </div>
 </article>
 </div>
 </section>
 <section class="homepage-section" id="publications">
 <div class="section-heading">
-<h2>Publications</h2>
-<p>Selected first-author or representative works are highlighted below. Equal contribution is marked by *.</p>
+<h2 data-i18n="publications">Publications</h2>
+<p data-i18n="publicationNote">Selected first-author or representative works are highlighted below. Equal contribution is marked by *.</p>
 </div>
 <div class="publication-list">
 <article class="publication-card selected">
@@ -237,26 +242,26 @@
 </div>
 </section>
 <section class="homepage-section" id="services">
-<div class="section-heading"><h2>Services</h2></div>
+<div class="section-heading"><h2 data-i18n="services">Services</h2></div>
 <ul class="clean-list">
-<li><strong>Conference Reviewer:</strong> CVPR 2025/2026, ICCV 2025, ICLR 2025/2026, ECCV 2026, ICML 2026, NeurIPS 2025/2026, AAAI 2026, BMVC 2026</li>
-<li><strong>Journal Reviewer:</strong> IEEE TIP, IEEE TCSVT, ACM TOMM</li>
-<li><strong>Workshop Organizer:</strong> VCIP 2025 Ultra-Low Bitrate Video Compression Challenge</li>
+<li><strong data-i18n="conferenceReviewer">Conference Reviewer:</strong> CVPR 2025/2026, ICCV 2025, ICLR 2025/2026, ECCV 2026, ICML 2026, NeurIPS 2025/2026, AAAI 2026, BMVC 2026</li>
+<li><strong data-i18n="journalReviewer">Journal Reviewer:</strong> IEEE TIP, IEEE TCSVT, ACM TOMM</li>
+<li><strong data-i18n="workshopOrganizer">Workshop Organizer:</strong> <span data-i18n="workshop">VCIP 2025 Ultra-Low Bitrate Video Compression Challenge</span></li>
 </ul>
 </section>
 <section class="homepage-section" id="honors">
-<div class="section-heading"><h2>Honors and Awards</h2></div>
+<div class="section-heading"><h2 data-i18n="honors">Honors and Awards</h2></div>
 <ul class="clean-list">
-<li><time>2023.06</time>Outstanding Graduate, Shanghai Jiao Tong University</li>
-<li><time>2022.10</time>Yu Liming Scholarship, UM-SJTU Joint Institute</li>
-<li><time>2021.10</time>Undergraduate Outstanding Scholarship, UM-SJTU Joint Institute</li>
+<li><time>2023.06</time><span data-i18n="outstandingGraduate">Outstanding Graduate, Shanghai Jiao Tong University</span></li>
+<li><time>2022.10</time><span data-i18n="yuLimingScholarship">Yu Liming Scholarship, UM-SJTU Joint Institute</span></li>
+<li><time>2021.10</time><span data-i18n="undergraduateScholarship">Undergraduate Outstanding Scholarship, UM-SJTU Joint Institute</span></li>
 </ul>
 </section>
 <section class="homepage-section" id="education">
-<div class="section-heading"><h2>Education</h2></div>
+<div class="section-heading"><h2 data-i18n="education">Education</h2></div>
 <ul class="clean-list">
-<li><time>2023.09 – Present</time>Ph.D. in Computer Science, Shanghai Jiao Tong University</li>
-<li><time>2019.09 – 2023.06</time>B.Eng. in Electrical and Computer Engineering, UM-SJTU Joint Institute, Shanghai Jiao Tong University</li>
+<li><time data-i18n="phdDates">2023.09 – Present</time><span data-i18n="phdEducation">Ph.D. in Computer Science, Shanghai Jiao Tong University</span></li>
+<li><time>2019.09 – 2023.06</time><span data-i18n="bachelorEducation">B.Eng. in Electrical and Computer Engineering, UM-SJTU Joint Institute, Shanghai Jiao Tong University</span></li>
 </ul>
 </section></section>
 </div>
@@ -264,6 +269,7 @@
 </div>
 <script src="assets/js/main.min.js"></script>
 <script defer src="assets/js/news.js"></script>
+<script defer src="assets/js/language.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 <script>

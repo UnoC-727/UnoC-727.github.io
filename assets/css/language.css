@@ -1,0 +1,71 @@
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+#site-nav {
+  flex: 1;
+  min-width: 0;
+}
+
+.language-switch {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid #e0e8f2;
+  border-radius: 999px;
+  background: #f8fafc;
+}
+
+.language-switch button {
+  padding: .35rem .6rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #64748b;
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1.35;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.language-switch button[aria-pressed="true"] {
+  background: #eaf2ff;
+  color: #174ea6;
+}
+
+.language-switch button:hover {
+  color: #174ea6;
+}
+
+.language-switch button:focus-visible {
+  outline: 2px solid #174ea6;
+  outline-offset: 2px;
+}
+
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3 {
+  font-family: "Trebuchet MS", "PingFang SC", "Microsoft YaHei", Helvetica, sans-serif;
+}
+
+@media (max-width: 680px) {
+  .masthead__menu {
+    align-items: flex-start;
+    gap: .35rem;
+  }
+
+  .language-switch {
+    margin-top: .6rem;
+  }
+
+  .language-switch button {
+    padding: .35rem .45rem;
+  }
+}
