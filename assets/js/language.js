@@ -44,7 +44,8 @@
     undergraduateScholarship: "上海交通大学密西根学院本科生优秀奖学金",
     phdDates: "2023.09 – 至今",
     phdEducation: "计算机科学博士（在读），上海交通大学",
-    bachelorEducation: "电子与计算机工程学士，上海交通大学密西根学院"
+    bachelorEducation: "电子与计算机工程学士，上海交通大学密西根学院",
+    undergraduateMinors: "本科辅修：数据科学、计算机科学、全球视野下的中国研究。"
   };
 
   var entries = Array.from(document.querySelectorAll("[data-i18n]")).map(function (element) {

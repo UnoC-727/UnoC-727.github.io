@@ -48,6 +48,12 @@
   outline-offset: 2px;
 }
 
+.education-minors {
+  margin: .25rem 0 0;
+  color: #64748b;
+  font-size: .92em;
+}
+
 html[lang="zh-CN"] body,
 html[lang="zh-CN"] h1,
 html[lang="zh-CN"] h2,
