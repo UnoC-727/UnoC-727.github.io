@@ -13,7 +13,7 @@
     university: "上海交通大学",
     name: "陈予诺 <span>Yunuo Chen</span>",
     subtitle: "计算机科学博士生",
-    biography: '我是上海交通大学多媒体实验室的博士生，导师为中国工程院院士 <a href="https://scholar.google.com/citations?user=u9aw5o8AAAAJ">高文</a> 和 <a href="https://scholar.google.com/citations?user=R9iwlJcAAAAJ">鲁国</a> 教授。本科就读于上海交通大学密西根学院，获电子与计算机工程学士学位。',
+    biography: '我是上海交通大学多媒体实验室的博士生，导师为中国工程院院士 <a href="https://scholar.google.com/citations?user=u9aw5o8AAAAJ">高文</a>教授和 <a href="https://scholar.google.com/citations?user=R9iwlJcAAAAJ">鲁国</a>副教授。本科就读于上海交通大学密西根学院，获电子与计算机工程学士学位。',
     research: "我的研究方向包括<strong>视觉压缩</strong>、<strong>生成式人工智能（AIGC）</strong>和<strong>世界模型</strong>。",
     email: '<i class="fas fa-fw fa-envelope"></i>邮箱',
     scholar: '<i class="fas fa-fw fa-graduation-cap"></i>谷歌学术',
