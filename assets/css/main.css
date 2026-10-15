@@ -124,7 +124,7 @@ html{scroll-behavior:smooth;}
   border-color: var(--publication-marker);
 }
 
-/* Keep the latest seven news entries visible, with older entries below. */
+/* Keep the latest eight news entries visible, with older entries below. */
 .news-scroll {
   max-height: 31rem;
   overflow-y: auto;

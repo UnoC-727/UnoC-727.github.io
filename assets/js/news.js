@@ -3,7 +3,7 @@
   if (!panel) return;
 
   var list = panel.querySelector('.timeline-list');
-  var visibleCount = 7;
+  var visibleCount = 8;
 
   function updateHeight() {
     var items = list.children;
