@@ -20,7 +20,7 @@
     newsLensErase2026: '发布物体移除基础模型 <a href="https://lensfamily.github.io/LensErase/"><strong>LensErase</strong></a>。',
     newsNeurips2026: "两篇论文被 <strong>NeurIPS 2026</strong> 接收。",
     newsEccv2026: "一篇论文被 <strong>ECCV 2026</strong> 接收。",
-    newsLens2026: '发布 <a href="https://arxiv.org/abs/2605.21573"><strong>Lens</strong>: Rethinking Training Efficiency for Foundational Text-to-Image Models</a>。',
+    newsLens2026: '发布文生图基础模型 <a href="https://arxiv.org/abs/2605.21573"><strong>Lens</strong></a>。',
     newsCvpr2026: "两篇论文被 <strong>CVPR 2026</strong> 接收。",
     newsIclr2026: "两篇论文被 <strong>ICLR 2026</strong> 接收。",
     newsNeurips2025: "一篇论文被 <strong>NeurIPS 2025</strong> 接收。",
