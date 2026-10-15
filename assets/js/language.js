@@ -19,7 +19,6 @@
     scholar: '<i class="fas fa-fw fa-graduation-cap"></i>谷歌学术',
     newsLensErase2026: '发布物体移除基础模型 <a href="https://lensfamily.github.io/LensErase/"><strong>LensErase</strong></a>。',
     newsNeurips2026: "两篇论文被 <strong>NeurIPS 2026</strong> 接收。",
-    newsTcsvt2026: "两篇论文被 <strong>TCSVT 2026</strong> 接收。",
     newsEccv2026: "一篇论文被 <strong>ECCV 2026</strong> 接收。",
     newsCvpr2026: "两篇论文被 <strong>CVPR 2026</strong> 接收。",
     newsIclr2026: "两篇论文被 <strong>ICLR 2026</strong> 接收。",
