@@ -17,7 +17,7 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 <!-- For all browsers -->
-<link href="assets/css/main.css" rel="stylesheet"/>
+<link href="assets/css/main.css?v=20261022-preprints" rel="stylesheet"/>
 <link href="assets/css/language.css" rel="stylesheet"/>
 <meta content="on" http-equiv="cleartype"/>
 <head>
@@ -55,7 +55,7 @@
 <div class="masthead__menu">
 <nav class="greedy-nav" id="site-nav">
 <button><div class="navicon"></div></button>
-<ul class="visible-links"><li class="masthead__menu-item"><a href="/#about-me" data-i18n="navAbout">About</a></li><li class="masthead__menu-item"><a href="/#news" data-i18n="news">News</a></li><li class="masthead__menu-item"><a href="/#experiences" data-i18n="experience">Experience</a></li><li class="masthead__menu-item"><a href="/#education" data-i18n="education">Education</a></li><li class="masthead__menu-item"><a href="/#publications" data-i18n="publications">Publications</a></li><li class="masthead__menu-item"><a href="/#services" data-i18n="services">Services</a></li><li class="masthead__menu-item"><a href="/#honors" data-i18n="navHonors">Honors</a></li></ul>
+<ul class="visible-links"><li class="masthead__menu-item"><a href="/#about-me" data-i18n="navAbout">About</a></li><li class="masthead__menu-item"><a href="/#news" data-i18n="news">News</a></li><li class="masthead__menu-item"><a href="/#experiences" data-i18n="experience">Experience</a></li><li class="masthead__menu-item"><a href="/#education" data-i18n="education">Education</a></li><li class="masthead__menu-item"><a href="/#publications" data-i18n="publications">Publications</a></li><li class="masthead__menu-item"><a href="/#preprints" data-i18n="preprints" data-ss-opts='{"offset":-160}'>Preprints</a></li><li class="masthead__menu-item"><a href="/#services" data-i18n="services">Services</a></li><li class="masthead__menu-item"><a href="/#honors" data-i18n="navHonors">Honors</a></li></ul>
 <ul class="hidden-links hidden"></ul>
 </nav>
 <div class="language-switch" role="group" aria-label="Language">
@@ -261,6 +261,49 @@
 </article>
 </div>
 </section>
+<section class="homepage-section" id="preprints">
+<div class="section-heading">
+<h2 data-i18n="preprints">Preprints</h2>
+</div>
+<div class="publication-list">
+<article class="publication-card selected">
+<div class="venue-pill">Preprint</div>
+<div class="publication-card__body">
+<h3><a href="https://arxiv.org/abs/2610.18607">Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors</a></h3>
+<p class="authors"><strong>Yunuo Chen</strong>, Jingnan Gao, Bing He, Jinjing Zhao, Chuqin Zhou, Xiaoyue Ling, Li Song, Guo Lu, Wenjun Zhang</p>
+<p>Recasts a pretrained Diffusion Transformer as a deterministic one-step decoder for extreme image compression, guided by hierarchical visual priors.</p>
+<div class="paper-links"><a href="https://arxiv.org/abs/2610.18607"><i class="fas fa-file-alt"></i> Paper</a></div>
+</div>
+</article>
+<article class="publication-card">
+<div class="venue-pill">Preprint</div>
+<div class="publication-card__body">
+<h3><a href="https://arxiv.org/abs/2610.12229">VibeEdit: Image Editing with Canvas Instructions</a></h3>
+<p class="authors">Jinjing Zhao, Fangyun Wei, Yitong Wang, Xiuyu Wu, <strong>Yunuo Chen</strong>, Yang Yue, Sirui Zhang, Wenbo Wang, Hongyang Zhang, Dong Chen, Yan Lu, Chang Xu</p>
+<p>Enables image editing through spatial marks and short notes placed directly on the image, supporting object addition, removal, replacement, attribute changes, and movement.</p>
+<div class="paper-links"><a href="https://arxiv.org/abs/2610.12229"><i class="fas fa-file-alt"></i> Paper</a><a href="https://github.com/ZhaoJingjing713/VibeEdit"><i class="fab fa-github"></i> Code</a><a href="https://zhaojingjing713.github.io/VibeEdit/"><i class="fas fa-globe"></i> Project Page</a></div>
+</div>
+</article>
+<article class="publication-card">
+<div class="venue-pill">Preprint</div>
+<div class="publication-card__body">
+<h3><a href="https://arxiv.org/abs/2606.20506">FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining</a></h3>
+<p class="authors">Jinghong Lan, Wei Cheng, <strong>Yunuo Chen</strong>, Ziqi Ye, Peng Xing, Yixiao Fang, Rui Wang, Yufeng Yang, Xuanyang Zhang, Xianfang Zeng, Difan Zou, Gang Yu, Chi Zhang</p>
+<p>Mines community LoRAs to build style-content reference data and supports controllable dual-reference generation with reduced content leakage.</p>
+<div class="paper-links"><a href="https://arxiv.org/abs/2606.20506"><i class="fas fa-file-alt"></i> Paper</a><a href="https://github.com/Blue2Giant/FreeStyle"><i class="fab fa-github"></i> Code</a></div>
+</div>
+</article>
+<article class="publication-card">
+<div class="venue-pill">Preprint</div>
+<div class="publication-card__body">
+<h3><a href="https://arxiv.org/abs/2610.18097">APT: Feedback-Driven Agentic Post-Training for Text-to-Image Generation</a></h3>
+<p class="authors">Sirui Zhang, Fangyun Wei, Dong Chen, Jinjing Zhao, Yitong Wang, <strong>Yunuo Chen</strong>, Baining Guo, Zheng-Jun Zha</p>
+<p>Automates text-to-image post-training through a feedback loop that evaluates model capabilities, diagnoses weaknesses, and adapts reinforcement learning data.</p>
+<div class="paper-links"><a href="https://arxiv.org/abs/2610.18097"><i class="fas fa-file-alt"></i> Paper</a></div>
+</div>
+</article>
+</div>
+</section>
 <section class="homepage-section" id="services">
 <div class="section-heading"><h2 data-i18n="services">Services</h2></div>
 <ul class="clean-list">
@@ -283,7 +326,7 @@
 </div>
 <script src="assets/js/main.min.js"></script>
 <script defer src="assets/js/news.js?v=20261015-eight-news"></script>
-<script defer src="assets/js/language.js?v=20261015-lens-release-short"></script>
+<script defer src="assets/js/language.js?v=20261022-preprints"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 <script>

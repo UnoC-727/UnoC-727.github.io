@@ -6,6 +6,7 @@
     news: "最新动态",
     experience: "科研经历",
     publications: "发表论文",
+    preprints: "预印本",
     services: "学术服务",
     navHonors: "荣誉奖励",
     honors: "荣誉与奖励",
