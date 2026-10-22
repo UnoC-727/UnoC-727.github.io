@@ -28,7 +28,10 @@
     newsIccv2025: "一篇论文被 <strong>ICCV 2025</strong> 接收，并获选为<strong>口头报告</strong>。",
     newsIclr2024: "一篇论文被 <strong>ICLR 2024</strong> 接收。",
     newsIcml2023: "一篇论文被 <strong>ICML 2023</strong> 接收。",
-    msraDates: "2026.02 – 至今",
+    tencentDates: "2026.11 – 至今",
+    qingyunProgram: "青云计划",
+    tencentArc: "腾讯 IEG ARC Lab",
+    msraDates: "2026.02 – 2026.10",
     researchIntern: "科研实习生",
     msra: "微软亚洲研究院（MSRA）",
     msraSupervisors: '导师：<a href="https://www.microsoft.com/en-us/research/people/fawe/">魏芳芸</a> 和 <a href="https://scholar.google.com/citations?user=_fKSYOwAAAAJ">陈栋</a>。',
@@ -62,7 +65,7 @@
   var originalLocale = locale ? locale.content : "en";
   var images = Array.from(document.querySelectorAll(".hero-card img, .experience-card img"));
   var originalAlts = images.map(function (image) { return image.alt; });
-  var chineseAlts = ["陈予诺", "微软亚洲研究院标志", "阶跃星辰标志"];
+  var chineseAlts = ["陈予诺", "腾讯标志", "微软亚洲研究院标志", "阶跃星辰标志"];
 
   function setLanguage(language) {
     var isChinese = language === "zh";
