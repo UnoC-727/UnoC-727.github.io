@@ -31,6 +31,8 @@
     tencentDates: "2026.11 – 至今",
     qingyunProgram: "青云计划",
     tencentArc: "腾讯 IEG ARC Lab",
+    tencentSupervisor: '导师：<a href="https://scholar.google.com/citations?user=j_yFqlsAAAAJ&amp;hl=en">陈宏昊</a>。',
+    tencentTopic: "研究方向：世界模型、世界动作模型。",
     msraDates: "2026.02 – 2026.10",
     researchIntern: "科研实习生",
     msra: "微软亚洲研究院（MSRA）",
@@ -65,7 +67,7 @@
   var originalLocale = locale ? locale.content : "en";
   var images = Array.from(document.querySelectorAll(".hero-card img, .experience-card img"));
   var originalAlts = images.map(function (image) { return image.alt; });
-  var chineseAlts = ["陈予诺", "腾讯标志", "微软亚洲研究院标志", "阶跃星辰标志"];
+  var chineseAlts = ["陈予诺", "腾讯 ARC 实验室标志", "微软亚洲研究院标志", "阶跃星辰标志"];
 
   function setLanguage(language) {
     var isChinese = language === "zh";
