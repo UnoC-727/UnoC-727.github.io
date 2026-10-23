@@ -67,7 +67,7 @@
   var originalLocale = locale ? locale.content : "en";
   var images = Array.from(document.querySelectorAll(".hero-card img, .experience-card img"));
   var originalAlts = images.map(function (image) { return image.alt; });
-  var chineseAlts = ["陈予诺", "腾讯 ARC 实验室标志", "微软亚洲研究院标志", "阶跃星辰标志"];
+  var chineseAlts = ["陈予诺", "腾讯标志", "腾讯 ARC 实验室标志", "微软亚洲研究院标志", "阶跃星辰标志"];
 
   function setLanguage(language) {
     var isChinese = language === "zh";

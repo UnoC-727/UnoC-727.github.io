@@ -159,3 +159,14 @@ html{scroll-behavior:smooth;}
 .news-scroll::-webkit-scrollbar-thumb:hover {
   background: #64748b;
 }
+
+.experience-card__logo--dual {
+  flex-direction: column;
+  gap: .9rem;
+  padding: 1rem .75rem;
+}
+.experience-card__logo--dual img {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
