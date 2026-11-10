@@ -31,7 +31,7 @@
     tencentDates: "2026.11 – 至今",
     qingyunProgram: "青云计划",
     tencentArc: "腾讯 IEG ARC Lab",
-    tencentSupervisor: '导师：<a href="https://scholar.google.com/citations?user=j_yFqlsAAAAJ&amp;hl=en">陈宏昊</a> 和 <a href="https://scholar.google.com.sg/citations?hl=en&amp;user=4oXBp9UAAAAJ">Ying Shan</a>。',
+    tencentSupervisor: '导师：<a href="https://scholar.google.com/citations?user=j_yFqlsAAAAJ&amp;hl=en">陈宏昊</a> 和 <a href="https://scholar.google.com.sg/citations?hl=en&amp;user=4oXBp9UAAAAJ">单瀛</a>。',
     tencentTopic: "研究方向：世界模型、世界动作模型。",
     msraDates: "2026.02 – 2026.10",
     researchIntern: "科研实习生",
